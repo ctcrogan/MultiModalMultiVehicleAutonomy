@@ -1,0 +1,28 @@
+
+At the time of this writing nothing crashes when all systems are go. (10/9/2014)
+Most common causes for crashes are:
+
+	
+	1. This software system is Multi-Threaded, So
+	When testing seperate modules in the main function, bear in mind that commenting
+	out certain modules will almost certainly have an effect on other modules.
+	You must also comment out their shared variables, read the notes in the code.
+
+	2. If something is not connected or connected to the wrong comport this will
+	definitely crash the program. This includes the robots themselves. You need to
+	be in the lab to test most code.
+
+	3. Aria and/or OpenCv is not installed properly. Not properly Linking libraries
+
+	4. Vision Algorithms run out of memory.
+
+
+		Beginnings of a CheckList
+
+	1.	Launch Mission Planner
+	2.	Turn On Ground Robot
+	3.	Connect Through Telemetry to Quadcopter
+	4.	Connect to MicroDrones for Raw Data
+	5.	Start Recording with GoPro
+	6.	Run Our Software in Visual Studio
+	7.	Fly Quadcopter

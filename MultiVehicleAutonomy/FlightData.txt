@@ -1,0 +1,12 @@
+X = 439.
+Y = 89.
+Mission started at Mon Oct 27 14:33:13 2014
+
+Target Acquired in 71.991 seconds.
+
+EFEC format GPS: 
+#5,155154559.550865,-450797012.910749,420856255.398067,1.63000000476837,10,32
+
+Lat = 41.6281
+Lon = -71.0076
+Alt = -9413.85
